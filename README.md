@@ -1,4 +1,4 @@
-# 0x00 React & JSX
+# React and JSX Introduction
 
 ## Getting Started
 
