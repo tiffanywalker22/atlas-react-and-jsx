@@ -105,6 +105,7 @@ li:first-child {
 .helpful-resource a {
   color: var(--offwhite);
   text-decoration: none;
+  display: flex;
 }
 
 .helpful-resource img {
