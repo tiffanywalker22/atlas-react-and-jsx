@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
-
+import AboutMe from './components/AboutMe';
 
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
       link="https://atlas-jswank.github.io/blog/hello-react/"
       label="Hello React by Jeremiah Swank" />
     </Section>
+    <AboutMe />
   </div>
   );
 };
