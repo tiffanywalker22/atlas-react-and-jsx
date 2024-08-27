@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
       label="Hello React by Jeremiah Swank" />
     </Section>
     <AboutMe />
+    <Footer />
   </div>
   );
 };

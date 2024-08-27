@@ -7,7 +7,7 @@ const OpenLink = ({ link }) => {
 
     return (
         <a href="#!" onClick={openTab}>
-            <img src="/src/assets/copy.svg" alt="Open Tab" />
+            <img src="/src/assets/open.svg" alt="Open Tab" />
         </a>
     );
 };
