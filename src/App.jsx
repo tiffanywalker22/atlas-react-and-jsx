@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
+import HelpfulResource from './components/HelpfulResource';
+
 
 
 function App() {
@@ -19,6 +21,17 @@ function App() {
         <li>Improved performance with the Virtual DOM</li>
         <li>Component-based architecture for better code organization</li>
       </ul>
+    </Section>
+    <Section title="Helpful Resources">
+      <HelpfulResource
+      link="https://www.youtube.com/watch?v=SqcY0GlETPk"
+      label="React Tutorial for Beginners" />
+      <HelpfulResource 
+      link="https://egghead.io/courses/the-beginner-s-guide-to-react"
+      label="The Beginner's Guide to React" />
+      <HelpfulResource
+      link="https://atlas-jswank.github.io/blog/hello-react/"
+      label="Hello React by Jeremiah Swank" />
     </Section>
   </div>
   );
