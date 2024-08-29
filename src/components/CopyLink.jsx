@@ -1,4 +1,5 @@
 import React from 'react';
+import copyLink from '../assets/copy.svg';
 
 const CopyLink = ({ link }) => {
     const clipboardCopy = () => {
@@ -7,7 +8,7 @@ const CopyLink = ({ link }) => {
     };
 
     return (
-        <img src="/src/assets/copy.svg" alt="Copy Icon" className="copy" onClick={clipboardCopy} />
+        <img src={copyLink} alt="Copy Icon" className="copy" onClick={clipboardCopy} />
     );
 };
 
