@@ -1,4 +1,5 @@
 import React from 'react';
+import openLink from '../assets/open.svg';
 
 const OpenLink = ({ link }) => {
     const openTab = () => {
@@ -7,7 +8,7 @@ const OpenLink = ({ link }) => {
 
     return (
         <a href="#!" onClick={openTab}>
-            <img src="/src/assets/open.svg" alt="Open Tab" />
+            <img src={openLink} alt="Open Tab" />
         </a>
     );
 };
